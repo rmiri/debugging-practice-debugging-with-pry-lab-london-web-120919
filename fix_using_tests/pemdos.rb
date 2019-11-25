@@ -1,7 +1,11 @@
+require 'pry'
 def snake_it_up(string)
-  if string[0] == "s"
-  10 * "s" + string
+  string2 = string.split('')
+  #
+  if string2[0] == "s"
+    "ssssssssss" + string   #see a better way of doing this instead of hardcoding it
   else
   string
   end
+
 end
